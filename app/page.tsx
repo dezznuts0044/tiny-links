@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="container mx-auto px-4 py-8 max-w-5xl">
       <div className="mb-8 text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+        <h1 className="text-4xl font-bold text-indigo-600 mb-4 tracking-tight">
           Shorten Your Links
         </h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -17,7 +17,7 @@ export default function Home() {
       <CreateLinkForm />
       
       <div className="mt-12">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Your Links</h2>
+        <h2 className="text-2xl font-bold  text-indigo-600 mb-6">Your Links</h2>
         <LinkList />
       </div>
     </main>

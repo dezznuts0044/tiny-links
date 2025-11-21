@@ -3,7 +3,7 @@ import { Link2 } from 'lucide-react';
 
 export default function Header() {
   return (
-    <header className="border-b border-gray-200 bg-white">
+    <header >
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl text-indigo-600">
           <Link2 className="w-6 h-6" />
