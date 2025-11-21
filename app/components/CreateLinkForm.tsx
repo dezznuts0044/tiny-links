@@ -63,7 +63,7 @@ export default function CreateLinkForm() {
   id="url"
   required
   placeholder="https://example.com/url"
-  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all placeholder-gray-400"
+  className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all placeholder-gray-400 text-gray-500"
   value={url}
   onChange={(e) => setUrl(e.target.value)}
 />
@@ -81,7 +81,7 @@ export default function CreateLinkForm() {
                 placeholder="alias"
                 pattern="[A-Za-z0-9]{6,8}"
                 title="6-8 alphanumeric characters"
-                className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all placeholder-gray-400"
+                className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all placeholder-gray-400 text-gray-500"
                 value={code}
                 onChange={(e) => setCode(e.target.value)}
               />
