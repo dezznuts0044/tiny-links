@@ -17,7 +17,7 @@ export default function Header() {
             Dashboard
           </Link>
           <a 
-            href="https://github.com" 
+            href="https://github.com/dezznuts0044" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors"
